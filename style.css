@@ -1,0 +1,29 @@
+.wrapper {
+  display: inline-flex;
+  justify-content: center;
+}
+.wrapper i {
+  padding: 10px;
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 150ms;
+}
+.wrapper a:nth-child(1) {
+  color: #e4405f;
+}
+.wrapper a:nth-child(2) {
+  color: #3b5999;
+}
+.wrapper a:nth-child(3) {
+  color: #55acee;
+}
+.wrapper a:nth-child(4){
+  color: #0077B5;
+}
+.wrapper i:hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+.checked {
+  color: orange;
+}
